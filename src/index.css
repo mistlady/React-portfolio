@@ -1,0 +1,90 @@
+header{
+  height: 10vh;
+  line-height: 10vh;
+}
+
+header .container{
+  padding-left: 30px;
+}
+header ul li a{
+  
+  transition: 0.5s;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+header ul li a:hover{
+  color: rgb(255, 0, 179);
+}
+
+img{
+  height: 80px;
+  width: 80px;
+}
+
+.all img{
+  height: 400px;
+  width: 400px;
+  border: 1px solid aqua;
+
+  
+}
+.inline h1{
+  margin-top:80px ;
+  padding-bottom: 30px;
+}
+.contact{
+  display: flex;
+  justify-content: start;
+}
+.contact img{
+  height: 30px;
+  width: 40px;
+  
+}
+ button{
+  margin-left: 30px;
+  background-color: aquamarine;
+  color: aquamarine;
+  cursor: pointer;
+  border: 1px solid aquamarine;
+  padding-top: 100px;
+}
+h3{
+  border: 1px solid aquamarine;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+span{
+  color: rgb(255, 0, 170);
+}
+
+.skills img{
+  height: 70px;
+  width: 90px;
+  margin: 60px 30px 40px 50px;
+
+}
+h1{
+  margin-left: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+.yes{
+  border: 2px dashed rgb(252, 16, 201);
+  margin:20px 60px 40px 30px;
+  padding: 5px;
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.yes img{
+  height: 200px;
+  width: 200px;
+}
